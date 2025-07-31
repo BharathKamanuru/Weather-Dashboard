@@ -47,13 +47,15 @@ Open the `index.html` file directly in your browser.
    ```javascript
    const apiKey = 'YOUR_API_KEY_HERE';
 
-📁 Project Structure
+<pre>📁 Project Structure
+   
 📦 Weather-Dashboard
 ├── index.html
 ├── styles.css
 ├── script.js
 └── images/
-    └── (Weather and UI icons)
+    └── (Weather and UI icons)</pre> 
+    
+📸 Project Screenshot
 
-📸 Screenshots
 <img width="1366" height="768" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/c78ddf2f-cf90-4453-a8ad-fca3c342caa5" />
