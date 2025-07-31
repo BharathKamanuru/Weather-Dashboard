@@ -24,7 +24,7 @@ function getSkyDescriptionIcon(description) {
 
 async function fetchAQIData(lat, lon) {
     const response = await fetch(
-        `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=d28274b5fe592e1f1e558103a5e66370`
+        `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=d28274b5fe592e1f1e558103a5e66370`
     );
     const data = await response.json();
     const list = data.list[0].components;
